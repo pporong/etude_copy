@@ -140,3 +140,23 @@
 .main-visual >.section02 >.slider-wrap-02 >.sldier02 .left >img {
   width: 100%;
 }
+
+
+
+
+
+
+.slick-dots li{
+  width: auto;
+  height: auto;
+}
+.slick-dots li button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.slick-dots li button:before{
+  content: "";
+}
