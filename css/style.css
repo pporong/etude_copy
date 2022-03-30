@@ -10,7 +10,7 @@
     color: inherit ;
     text-decoration: none ;
   }
-  /* 라이브러리 */
+/* 라이브러리 */
   .cell{
     float: left ;
   }
@@ -26,9 +26,9 @@
     max-width: 1200px ;
     margin: 0 auto ;
   } 
-  /* 스타일 */
+ /* 스타일 */
   
-  /* top-bar-wrap st */
+/* top-bar-wrap st */
   .top-bar-wrap {
     width: 100%;
     background-color: pink;
@@ -50,8 +50,8 @@
 
   .top-bar-wrap >.top-bar >.menu-box >.menu {
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 31px;
+    height: 34px;
     background-image: url(../img/search_logo.png);
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -64,11 +64,11 @@
   .top-bar-wrap >.top-bar >.search-box {
     width: 251px;
     height: 44px;
-    background-color: brown;
+    background-color: rgba(0,0,0,0.05);
     cursor: pointer;
     position: absolute;
     top: 50%;
-    right: 120px;
+    right: 100px;
     transform: translateY(-50%);
     padding: 0 20px;
     box-sizing: border-box;
@@ -77,17 +77,50 @@
   .top-bar-wrap >.top-bar >.search-box >.search {
     width: 189px;
     height: 42px;
-
-    
   }
-  .top-bar-wrap >.top-bar >.search-box >.search-btn {
+  .top-bar-wrap >.top-bar >.search-box >.search:focus{
+    outline:none;
+  }
+  .top-bar-wrap >.top-bar >.search-box >.btn-box {
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+  .top-bar-wrap >.top-bar >.search-box >.btn-box >.search-btn {
     width: 31px;
     height: 31px;
-    background-color: black;
     background-image: url(../img/search_logo.png);
     background-repeat: no-repeat;
-    background-position: 0 0;
-    position: absolute;
-    top: 50%;
+    background-position: 0 -120px;
+    padding-right: 10px;
+
+
 
   }
+  .top-bar-wrap >.top-bar >.login-btn {
+    width: 31px;
+    height: 34px;
+    background-image: url(../img/search_logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 0 -40px;
+    top:50%;
+    transform: translateY(-50%);
+    right: 60px;
+  }
+/* top-bar-wrap en */
+
+/* main-visual st */
+.main-visual >.section01 >.slider-wrap {
+  width: 100%;
+}
+.main-visual >.section01 >.slider-wrap >.slider .content > img{
+  width: 100%;
+}
+.main-visual >.section02 >.slider-wrap-02 >.sldier02 .left {
+  width: 50%;
+}
+.main-visual >.section02 >.slider-wrap-02 >.sldier02 .left >img {
+  width: 100%;
+}

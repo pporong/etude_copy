@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 에뛰드 공식 웹사이트 | ETUDE </title>
-    <!-- 제이쿼리 자리-->
+    <!-- js 자리-->
     <script src="./js/script.js"></script>
     <!-- 외부 js라이브러리 // 웹폰트 // 폰트어썸 -->
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+  
     <!-- 내가 만든 css / js -->
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
 
 </head>
+
 <body>
 
+    <!-- 탑바  -->
     <div class="top-bar-wrap">
 
         <div class="top-bar row">
@@ -32,15 +37,46 @@
             </div>
             <!-- 검색 / 로그인 -->
             <div class="search-box cell-r">
-                <input class="search" type="text">
-                <div class="search-btn"></div>
+                <input class="search" type="text" style="border: none; background: transparent;">
+                <div class="btn-box">
+                    <div class="search-btn"></div>
+                </div>
             </div>
+            <div class="login-btn"></div>
 
         </div>
 
     </div>
 
 
-    
+    <!-- 섹션01 -->
+    <div class="main-visual">
+        <div class="section01">
+            <div class="main-slider-wrap">
+                <div class="main-slider">
+                    <div class="content"><img src="./img/section1-1.jpg" alt="slide-image01"></div>
+                    <!-- <div class="content"><img src="./img/section1-2.jpg" alt="slide-image02"></div>
+                    <div class="content"><img src="./img/section1-3.jpg" alt="slide-image03"></div>
+                    <div class="content"><img src="./img/section1-4.jpg" alt="slide-image04"></div>
+                    <div class="content"><img src="./img/section1-5.jpg" alt="slide-image05"></div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="section02">
+            <div class="slider-wrap-02">
+                <div class="slider02">
+                    <div class="left">
+                        <img src="./img/section2-1_L.jpg" alt="slider02-img01">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
 </body>
+
 </html>
