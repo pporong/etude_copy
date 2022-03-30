@@ -31,15 +31,17 @@
 /* top-bar-wrap st */
   .top-bar-wrap {
     width: 100%;
-    background-color: pink;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
   }
   .top-bar-wrap >.top-bar {
-      background-color: grey;
+      /* background-color: grey; */
       height: 100px;
       position: relative;
   }
   .top-bar-wrap >.top-bar >.logo-box {
-
+    
   }
   .top-bar-wrap >.top-bar >.logo-box >.logo {
     position: absolute;
@@ -94,9 +96,6 @@
     background-repeat: no-repeat;
     background-position: 0 -120px;
     padding-right: 10px;
-
-
-
   }
   .top-bar-wrap >.top-bar >.login-btn {
     width: 31px;
@@ -112,12 +111,29 @@
 /* top-bar-wrap en */
 
 /* main-visual st */
-.main-visual >.section01 >.slider-wrap {
+.main-visual >.section01 >.main-slider-wrap {
+  max-width: 100%;
+}
+.main-visual >.section01 >.main-slider-wrap .slick-dots {
+  bottom: 0;
+
+}
+
+.main-visual >.section01 >.main-slider-wrap .slick-dots > li {
+ 
+}
+.main-visual >.section01 >.main-slider-wrap .slick-dots > li.active {
+
+}
+.main-visual >.section01 >.main-slider-wrap .slick-dots >li >button {
+
+}
+.main-visual >.section01 >.main-slider-wrap >.main-slider .content > img {
   width: 100%;
 }
-.main-visual >.section01 >.slider-wrap >.slider .content > img{
-  width: 100%;
-}
+
+
+/* section02 */
 .main-visual >.section02 >.slider-wrap-02 >.sldier02 .left {
   width: 50%;
 }
