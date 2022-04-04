@@ -101,7 +101,7 @@ a {
   font-family: 'Noto Sans KR', sans-serif;
 
 }
-.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-back >.gnb-menu > li > a {/
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-back >.gnb-menu > li > a {
 
 }
 
@@ -338,7 +338,7 @@ a {
   height: 830px;
 }
 .main-visual >.section02 >.sub-slide-wrap >.slider02  .prd-box >.right >.prd-area {
-  
+  padding: 30px 60px 0 0;
 }
 .main-visual >.section02 >.sub-slide-wrap >.slider02  .prd-box >.right .title-area {
 
@@ -360,31 +360,69 @@ a {
   font-family: 'Noto Sans KR', sans-serif;
 }
 /* -----------------------이미지------------------------ */
-.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info {
-  /* margin-top: 50px; */
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right >.prd-area {
+  overflow: hidden;
+  padding: 30px 60px 0 0;
 }
-.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-01 {
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info {
+  width: 100%;
+  padding: 28px 30px 0 10px;
+  margin-top: 30px;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+}
+/* .main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-01 {
   width: 45%;
   margin-right: 5%;
-  margin-top: 20px;
 }
 .main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-02 {
   width: 45%;
   margin-right: 5%;
-  margin-top: 20px;
+} */
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info img {
+  width: 342px;
+  height: 342px;
 }
-.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-01 > img {
-  width: 100%;
-}
+ 
 
 .main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info .item-info >.prd-name {
   font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  overflow: hidden;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.34;
+  text-overflow: ellipsis;
+  white-space: nowrap;
  }
 
+ .main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info .item-info {
+  width: 100%;
+  padding: 28px 0 0;
+ }
 .main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info .item-info >.price-area {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  overflow: hidden;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.34;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
 }
+
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info .item-info >.price-area em {
+  display: inline-block;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: #333;
+  letter-spacing: normal;
+  font-style: normal;
+}
+
 /* ----------------------------------------------------------- */
 .main-visual>.section02>.sub-slide-wrap .slick-dots {
   bottom: 30px;
@@ -520,10 +558,10 @@ a {
   font-family: 'Noto Sans KR', sans-serif;
 }
 .last-section-wrap .last_right >.img-box {
-  overflow: hidden;
-  width: 774px;
-  height: 653px;
+  width: auto;
+  height: 654px;
   margin: 58px 0 60px 125px;
+  overflow: hidden;
 }
 
 .last-section-wrap .last_right >.img-box > li {
