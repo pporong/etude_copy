@@ -329,17 +329,28 @@ a {
   font-family: 'Noto Sans KR', sans-serif;
 }
 /* -----------------------이미지------------------------ */
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info {
+  /* margin-top: 50px; */
+}
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-01 {
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-02 {
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
 .main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-01 > img {
-  margin-right: 50px;
-  width: 390px;
-  height: 390px;
+  width: 100%;
 }
 
-.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-01 >.item-info >.prd-name {
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info .item-info >.prd-name {
   font-family: 'Noto Sans KR', sans-serif;
  }
 
-.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info >.prd-01 >.item-info >.price-area {
+.main-visual >.section02 >.sub-slide-wrap >.slider02 .prd-box >.right .title-area >.prd-info .item-info >.price-area {
   font-family: 'Noto Sans KR', sans-serif;
 
 }
@@ -379,7 +390,7 @@ a {
 /* main-visual en */
 
 
-/* banner-section st *//
+/* banner-section st */
 
 /* .banner-section {
   display: flex;
