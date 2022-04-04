@@ -64,7 +64,7 @@ a {
 }
 
 .top-bar-wrap>.top-bar>.menu-box>.menu {
-  cursor: pointer;
+  /* cursor: pointer; */
   width: 31px;
   height: 34px;
   background-image: url(../img/search_logo.png);
@@ -74,7 +74,38 @@ a {
   left: 60px;
   top: 50%;
   transform: translateY(-50%);
+  
+
+  display: none;
 }
+
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-back {
+  width: 538px;
+  height: 418px;
+  background-color: white;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-back >.gnb-menu {
+  width: 198px;
+  height: 196px;
+  padding: 16px 0 0 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-back >.gnb-menu > li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-back >.gnb-menu > li > a {/
+
+}
+
+
 .top-bar-wrap >.top-bar >.search-wrap {
   position: absolute;
   right: 60px;
@@ -505,7 +536,7 @@ a {
 
 
 /* footer-wrap st  */
-.footer-wrap {
+footer {
   padding-bottom: 30px;
   background: #f5e2e2;
   border-top: 1px solid #d2d2d2;
@@ -513,3 +544,13 @@ a {
   color: #666;
 }
 
+footer >.nav-1 {
+}
+
+footer >.nav-1 >.footer-menu {
+}
+footer >.nav-1 >.footer-menu >li {
+}
+footer >.nav-1 >.footer-menu > li > a {
+
+}
