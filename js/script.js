@@ -33,5 +33,41 @@ $(document).ready(function () {
         $('.slider02').slick('slickNext')
     });
 
+    // ---------------------------------------------
+
+    // 인스타 인피니티 슬라이드
+    $('.main-insta-section >.main-insta >.insta_l >.slider').slick({
+        autoplay : true ,
+        autoplaySpeed : 0 ,
+        speed: 10000 ,
+        cssEase: "linear" ,
+        arrows : false ,
+        pauseOnHover : true ,
+      })
+    
+    
+    // 업버튼 
+    $('.up-btn-area >.up-btn').click(function(){
+    
+        // $('html, body').scrollTop(0)
+        $('html, body').animate({
+          'scrollTop' : 0 ,
+        } , 800)
+        
+      });
 
 });
+
+$(window).scroll(function(){
+  
+    let scrollTop = $(this).scrollTop()
+    // 내가 선택한 위치가 어딘지 알려주는 메서드
+  
+    if( scrollTop > 100 ){
+      $('.up-btn-area >.up-btn').addClass('active')
+    }
+    if( scrollTop < 100 ){
+      $('.up-btn-area >.up-btn').removeClass('active')
+    }
+    
+  });
