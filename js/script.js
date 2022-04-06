@@ -3,7 +3,7 @@ $(document).ready(function () {
     // 메인
     $('.main-slider').slick({
         autoplay: true ,
-        autoplaySpeed : 1500 , 
+        autoplaySpeed : 2000 , 
         dots: true ,
         pauseOnHover: false ,
         arrows : false ,

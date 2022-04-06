@@ -34,7 +34,7 @@ a {
 }
 
 .con {
-  max-width: 1200px;
+  max-width: 1220px;
   margin: 0 auto;
 }
 
@@ -64,13 +64,13 @@ a {
 }
 
 
-/* 메뉴의 메뉴  */
+/* 메뉴 */
 
 .top-bar-wrap>.top-bar>.menu-box {
   
 }
 .top-bar-wrap>.top-bar>.menu-box>.menu {
-  /* cursor: pointer; */
+  cursor: pointer;
   width: 31px;
   height: 34px;
   background-image: url(../img/search_logo.png);
@@ -84,14 +84,17 @@ a {
 }
 
 .top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg {
-  width: 538px;
-  height: 418px;
-  background-color: white;
+  cursor: default ;
+  width: 540px;
+  height: 420px;
+  background-image: url(../IMG/bg_w_opacity80.png);
   position: absolute;
   top: 40px;
   left: 0;
-
- 
+  box-shadow : 0 5px 10px 0 rgb(0 0 0 / 10%) ;
+  border:1px solid rgba(0,0,0,0.1) ;
+  
+  display: none;
 }
 
 .top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg >.gnb-menu {
@@ -100,15 +103,26 @@ a {
   padding: 16px 0 0 30px;
   font-family: 'Noto Sans KR', sans-serif;
 }
-.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg >.gnb-menu > li {
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg >.gnb-menu > .menu1 {
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
   font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  width: 170px;
+  height: 20px;
 
 }
-.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg >.gnb-menu > li > a {
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg >.gnb-menu > .menu1 > a {
 
+}
+
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg >.gnb-menu > .menu1 .lnb-menu {
+  display: none;
+
+}
+.top-bar-wrap>.top-bar>.menu-box>.menu >.gnb-bg >.gnb-menu > .menu1 .lnb-menu >.menu2 {
+  
 }
 
 
@@ -169,6 +183,15 @@ a {
 }
 
 /* top-bar-wrap en */
+
+/* menu-wrap st 메뉴의 메뉴 ------------------------------ */
+.menu-wrap {
+  width: 100%;
+}
+
+
+
+
 
 /* main-visual st */
 .main-visual>.section01>.main-slider-wrap {
@@ -652,6 +675,7 @@ a {
 
 .last-section-wrap {
   background-color: #f5e2e2;
+  overflow: hidden;
 }
 .last-section-wrap >.last-section {
 
@@ -686,7 +710,7 @@ a {
   font-family: 'Noto Sans KR', sans-serif;
 }
 .last-section-wrap .last_right >.img-box {
-  width: auto;
+  width: 774px;
   height: 654px;
   margin: 58px 0 60px 125px;
   overflow: hidden;
@@ -694,7 +718,6 @@ a {
 
 .last-section-wrap .last_right >.img-box > li {
   width: 50%;
-  overflow: hidden;
 }
 
 
@@ -722,6 +745,8 @@ a {
   opacity: 1;
   visibility: visible ;
 }
+
+
 /* footer-wrap st  */
 footer {
   padding-bottom: 30px;
@@ -741,3 +766,9 @@ footer >.nav-1 >.footer-menu >li {
 footer >.nav-1 >.footer-menu > li > a {
 
 }
+/*  푸터 : ㅠ
+마진으로 글자간격 박스만. 컨테이너 주기
+밑에ㅡㄴ글씨쓰고 배치정도만. 
+
+그 사진 두개 그거 미디어 쿼리로 너비 바꿔주기 53% 정도..
+*/
