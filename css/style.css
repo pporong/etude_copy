@@ -34,7 +34,7 @@ a {
 }
 
 .con {
-  max-width: 1220px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -752,20 +752,101 @@ footer {
   padding-bottom: 30px;
   background: #f5e2e2;
   border-top: 1px solid #d2d2d2;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 13px;
   color: #666;
 }
-
-footer >.nav-1 {
+footer >.footer-top {
+  border-bottom: 1px solid #d2d2d2 ;
+}
+footer >.footer-top >.footer-nav01 {
+  position: relative;
 }
 
-footer >.nav-1 >.footer-menu {
+footer >.footer-top>.footer-nav01 >.f-menu {
+  padding-top: 21px;
+  height: 35px;
 }
-footer >.nav-1 >.footer-menu >li {
+footer >.footer-top>.footer-nav01 >.f-menu > li {
+  padding-left: 18px;
+  margin-left: 18px;
+}footer >.footer-top>.footer-nav01 >.f-menu > li:nth-child(1) {
+  padding-left: 0;
+  margin-left: 0;
 }
-footer >.nav-1 >.footer-menu > li > a {
+footer >.footer-top>.footer-nav01 >.f-menu > .menu {
+  border-left: 1px solid #d2d2d2;
+}
+
+footer >.footer-top>.footer-nav01 >.f-menu > li > a {
 
 }
+
+footer >.footer-top>.footer-nav01 >.site-box {
+  width: 140px;
+  margin: 9px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+footer >.footer-top>.footer-nav01 >.site-box > button {
+   width: 100%;
+  height: 40px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #7b7b7b;
+  background-color: #fff;
+  background-image: url(../IMG/arr_bottom3.png);
+  background-position: 110px;
+  background-repeat: no-repeat;
+  padding: 0 35px 0 14px;
+  text-align: left;
+  border: 1px solid #b0b0b0;
+}
+
+footer >.footer-top>.footer-nav01 >.site-box >.site {
+  position: absolute;
+  width: 100%;
+  margin-top: -1px;
+  background: #fff;
+  box-sizing: border-box;
+  border: 1px solid #b0b0b0;
+  border-top-color: #e5e5e5;
+
+  display: none;
+}
+footer >.footer-top >.footer-nav01 >.site-box >.site > li {
+
+}
+
+/* ------------------------------------------------------  */
+
+footer >.footer-bottom {
+
+}
+footer >.footer-bottom >.footer-nav-02 {
+
+}
+footer >.footer-bottom >.footer-nav-02 >.f-nav-l {
+  width: 50%;
+  height: 200px;
+  background-color: blue;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+footer >.footer-bottom >.footer-nav-02 >.f-nav-l > p {
+}
+footer >.footer-bottom >.footer-nav-02 >.f-nav-r {
+  width: 50%;
+  height: 200px;
+  background-color: red;
+}
+
+
+
+
+
+
 /*  푸터 : ㅠ
 마진으로 글자간격 박스만. 컨테이너 주기
 밑에ㅡㄴ글씨쓰고 배치정도만. 
