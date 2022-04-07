@@ -1,5 +1,12 @@
 $(document).ready(function () {
     
+    // 메뉴
+    $('.top-bar-wrap >.top-bar >.menu-box >.menu').click(function(){
+      $('.menu-wrap').addClass('active')
+      
+    })
+
+
     // 메인
     $('.main-slider').slick({
         autoplay: true ,
@@ -55,7 +62,13 @@ $(document).ready(function () {
         } , 800)
         
       });
-
+      // 공지사항 슬라이드
+      $(".post-box").slick({
+        vertical: true ,
+        draggable: false ,
+        autoplay: true ,
+        arrows: false ,
+      })
 });
 
 $(window).scroll(function(){
