@@ -124,6 +124,7 @@ a {
   background-repeat: no-repeat;
   background-position: 0 -120px;
   padding-right: 10px;
+  cursor: pointer;
   position: absolute;
   right: 0;
   top: 50%;
@@ -137,6 +138,7 @@ a {
   background-repeat: no-repeat;
   background-position: 0 -40px;
   margin-top: 3px;
+  cursor: pointer;
 }
 
 /* top-bar-wrap en */
